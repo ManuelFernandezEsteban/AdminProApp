@@ -12,6 +12,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { Grafica1Component } from './grafica1/grafica1.component';
 import { PagesComponent } from './pages.component';
 import { ProgressComponent } from './progress/progress.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 @NgModule({
@@ -19,21 +20,22 @@ import { ProgressComponent } from './progress/progress.component';
     ProgressComponent,
     DashboardComponent,
     Grafica1Component,
-    PagesComponent],
+    PagesComponent,
+    AccountSettingsComponent
+  ],
   imports: [    
     CommonModule,
     FormsModule,    
     RouterModule,
     SharedModule,
     ComponentsModule,
-  
-    
   ],
   exports:[
     ProgressComponent,
     DashboardComponent,
     Grafica1Component,
-    PagesComponent
+    PagesComponent,
+    AccountSettingsComponent
   ]
 })
 export class PagesModule { }
