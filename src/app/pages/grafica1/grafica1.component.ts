@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
   ]
 })
 export class Grafica1Component implements OnInit {
-
+  
   // Doughnut
   
   constructor() { }

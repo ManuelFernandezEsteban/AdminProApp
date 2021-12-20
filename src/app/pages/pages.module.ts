@@ -32,7 +32,7 @@ import { RxjsComponent } from './rxjs/rxjs.component';
     FormsModule,    
     RouterModule,
     SharedModule,
-    ComponentsModule,
+    ComponentsModule
   ],
   exports:[
     ProgressComponent,
